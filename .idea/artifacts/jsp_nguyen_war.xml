@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jsp-nguyen:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jsp-nguyen</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jsp-nguyen-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="jsp-nguyen:war exploded" />
+    </root>
+  </artifact>
+</component>
